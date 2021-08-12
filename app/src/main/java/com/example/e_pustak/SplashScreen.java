@@ -3,14 +3,18 @@ package com.example.e_pustak;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.view.WindowManager;
 
 public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splah_screen);
         Handler handler =new Handler();
         handler.postDelayed(new Runnable() {
@@ -21,5 +25,6 @@ public class SplashScreen extends AppCompatActivity {
                 finish();
             }
         },3000);
+
     }
 }
