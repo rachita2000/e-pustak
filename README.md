@@ -1,6 +1,6 @@
 # e-pustak
 
-An Android Application by which user can search about their favourite Google Books. This app fetches data from [GOOGLE BOOK API].(https://developers.google.com/books/docs/v1/reference)
+An Android Application by which user can search about their favourite Google Books. This app fetches data from [GOOGLE BOOK API](https://developers.google.com/books/docs/v1/reference).
 
 ## Screenshots
 
